@@ -12,6 +12,14 @@ body {
     display: none;
   }
 
+  .contact-me {
+    scale: 0.9;
+  }
+
+  .about img {
+    margin-top: 90px;
+  }
+
   .container header .brand p {
     font-size: 25px;
   }
@@ -19,14 +27,20 @@ body {
   .body .jumbotron .body-content .name {
     font-size: 180%;
   }
-
   .body .jumbotron .body-content .text-grey {
     margin-bottom: 20px;
   }
 
+  .profile .card .white {
+    margin: 5px;
+  }
+
   .profile .card .green,
   .white {
-    scale: 0.5;
+    scale: 0.7;
+  }
+  .profile {
+    margin-bottom: 100px;
   }
 
   .jumbotron .body-content .hobby {
@@ -155,7 +169,7 @@ header {
   width: 55%;
   height: 55%;
   margin-bottom: 30px;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 
 .profile-card {
@@ -191,7 +205,7 @@ header {
 }
 
 .green h1 {
-  font-size: 30px;
+  font-size: 189%;
 }
 
 .profile a {
