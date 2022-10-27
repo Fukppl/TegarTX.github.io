@@ -10,11 +10,16 @@ body {
 
 @media screen and (max-width: 550px)  {
   .wrapper {
-    scale: 0.7;
+    scale: 0.87;
   }
 
-  .container {
+  body .container {
     background-size: 30px;
+    height: 100vh;
+  }
+
+  .container .wrapper {
+    height: auto;
   }
 }
 
@@ -89,7 +94,7 @@ body {
   position: relative;
   display: flex;
   justify-content: center;
-  transition: all 0.7s ease-in-out;
+  transition: all 0.3s ease-in-out;
   font-size: 125%;
   border: 3px solid black;
 }
@@ -110,6 +115,7 @@ a {
 }
 
 .buttons button:hover {
-  scale: 1.07;
-  transition: all 0.7s ease-in-out;
+  scale: 1.04;
+  transition: all 0.3s ease-in-out;
+
 }
